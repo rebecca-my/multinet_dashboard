@@ -1,0 +1,16 @@
+# conda-forge
+
+dash=1.12.0
+flask=1.1.2
+pandas=0.25.3
+plotly=4.8.1
+pyqt=5.9.2
+python=3.7.6
+python-dateutil
+werkzeug=1.0.0
+dash-bootstrap-components
+flask-caching
+colour
+networkx
+matplotlib
+scikit-learn
