@@ -7,20 +7,27 @@ Pull data from Web of Science (WoS) in one of the following export format:
 
 The text box in the top right will populate with current directory path, and allows the user to load data from a folder or file path of their choosing.
 
-Once the 'Get data' button is pressed, the user's file(s) are loaded, and the data is preprocessed.  
+Once the 'Get data' button is pressed, user file(s) are loaded, and the data is preprocessed.  
 Be patient, the network may take a few moments to parse.    
 
 In addition to the visualization output, an initial table displaying an edgelist will populate at the bottom of the page.  It is anticipated that there may be many records, so this feature is set for vertical scrolling so as to not clutter up the page.
 
 After the data is loaded, and preprocessing is complete, navigate to the metrics tab to create co-authorship and co-citation network analyses.
+Note: If co-citation is the network chosen, in addition to the co-citation edgelist table output, a paper citation report will generate in table format as well.  This is a network of all records in the dataset with each record's citations mapped to said record.  This network is not available for visualization, only in table format and available for export.
 
-Color clustering is available for Girvan-Newman and K-core subsets.
-  The dashboard implements the Girvan-Newman algorithm from NetworkX.  The algorithm finds the edges in a network that occur the most frequently amongst pairs of nodes.  It does this by finding the the edges with the highest betweenness value and recursively removing them.  What remains are the subset communities in the network.  
+Color clustering by node is mapped for Girvan-Newman and K-core subsets. 
+The Girvan-Newman table will list nodes with numerical cluster assignment.
+The K-core table will list the nodes that satify the minimum number of edges to be included in a k-core cluster.  Currently K = 3.
 
-Use the Centralities dropdown to observe betweenness, weighted degree, and closeness centralities. The top 10 actors will be generated in the table at the bottom of the page.
+Node size is correlated to weighted degree.  The larger the node, the higher the weighted-degree.
+Hovering over a node will provide the node's identity (author name or doi reference number), and number of node adjacencies aka simple degree.
 
-All tables are available for export. Click the export button and for a CSV download of the chosen analysis.
+To observe centrality values for a single node, the user can choose from the following centralities: betweenness, weighted degree, closeness. The top 10 actors will be generated in the table at the bottom of the page.
 
-## Documentation
+All analyses is available for export. An export button is visible at the top of each table generated.  Exports will download in CSV format.
+
+
+
+
 
 
