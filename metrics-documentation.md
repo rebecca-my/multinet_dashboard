@@ -18,6 +18,6 @@ The sum of adjacencies a node has.
 **Weighted degree:**
 The dashboard implements [weighted degree metric from NetworkX](https://networkx.github.io/documentation/networkx-1.9/reference/generated/networkx.algorithms.centrality.degree_centrality.html).  A node's weighted degree value is the percentage of nodes it has connections with.
 
-# Dashboard framework
+### Dashboard framework
 
 [Dash](https://dash.plotly.com/introduction) is a Python framework for constructing web based applications.  It is designed to accommodate interactive data analyses and visualization, and allows for the creation of a user interface to be developed in python.   
