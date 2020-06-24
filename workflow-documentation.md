@@ -1,15 +1,15 @@
 ## MultiNet Toolkit Dashboard User Workflow Documentation
 
-### Pull data from Web of Science (WoS) in one of the following export format: 
+**Pull data from Web of Science (WoS) in one of the following export format:**
 
-  Full Record and Cited References' records in Tab-delimited (Mac, UTF-8)
+  * Full Record and Cited References' records in Tab-delimited (Mac, UTF-8)
   
-  Full Record and Cited References' records in Tab-delimited (Win, UTF-8)
+  * Full Record and Cited References' records in Tab-delimited (Win, UTF-8)
   
 
 The text box in the top right will populate with current directory path, and allows the user to load data from a folder or file path of their choosing.
 
-Once the 'Get data' button is pressed, user file(s) are loaded, and the data is preprocessed.  
+Once the **'Get data'** button is pressed, user file(s) are loaded, and the data is preprocessed.  
 
 Be patient, the network may take a few moments to parse.    
 
@@ -19,7 +19,7 @@ In addition to the visualization output, an initial table displaying an edgelist
 
 After the data is loaded, and preprocessing is complete, navigate to the metrics tab to create co-authorship and co-citation network analyses.
 
-Note: If co-citation is the network chosen, in addition to the co-citation edgelist table output, a paper citation report will generate in table format as well.  This is a network of all records in the dataset with each record's citations mapped to said record.  This network is not available for visualization, only in table format and available for export.
+**Note:** If co-citation is the network chosen, in addition to the co-citation edgelist table output, a paper citation report will generate in table format as well.  This is a network of all records in the dataset with each record's citations mapped to said record.  This network is not available for visualization, only in table format and available for export.
 
 
 Color clustering by node is mapped for Girvan-Newman and K-core subsets. 
