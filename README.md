@@ -1,11 +1,11 @@
 ## MultiNet Toolkit
 The MultiNet Toolkit is a dashboard built for [IU Network Science Institute](https://iuni.iu.edu/) to facilitate science of science exploration and analyses.  Its intention is to be user friendly for institutional researchers on a global level.  blah blahblah.
 
-## Userguide
+## User Guide
 
 The MultiNet Toolkit Userguide: everything that you need to know to be productive with the dashboard.
 
-## Running the app locally
+### Running the app locally
 
 If you do not have python 3 installed, you need to install before continuing.  
 
