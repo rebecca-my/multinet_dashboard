@@ -1,6 +1,6 @@
 ## MultiNet Toolkit Dashboard User Workflow Documentation
 
-# Pull data from Web of Science (WoS) in one of the following export format: 
+### Pull data from Web of Science (WoS) in one of the following export format: 
 
   Full Record and Cited References' records in Tab-delimited (Mac, UTF-8)
   
