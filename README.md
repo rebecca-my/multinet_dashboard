@@ -11,6 +11,8 @@ If you do not have python 3 installed, you need to install before continuing.
 
 Here is an easy way to get the latest install: [https://repo.anaconda.com/archive/]
 
+Create a folder where you want to clone the repository to, and navigate to it.
+
 Clone the github repository and navigate to dashboard_toolkit folder:
   ```
    git clone https://github.com/rebecca-my/multinet_dashboard
