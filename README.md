@@ -37,4 +37,5 @@ Run the python file and you are all set!
   python multinet_toolkit.py
   
 ```
-Documentation of metrics can be found [here.](https://github.com/rebecca-my/multinet_dashboard/blob/master/metrics-documentation.md)
+Click [here](https://github.com/rebecca-my/multinet_dashboard/blob/master/workflow-documentation.md) for workflow documentation.
+Click [here](https://github.com/rebecca-my/multinet_dashboard/blob/master/metrics-documentation.md) for metrics documentation.
